@@ -1,8 +1,39 @@
-# React + Vite
+## 🍔 Food Explorer
+O App Food Explorer é um projeto CRUD de um menu interativo, projetado para o restaurante fictício Food Explorer. O App oferece um conjunto robusto de recursos para que os usuários desfrutem de uma experiência personalizada.
+<p align="center">
+  <img alt="foddexplorer" src="./src/assets/logo.svg" width="60%">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Recursos Principais
+**- Gerenciamento de Usuários** 👨‍💼
+- Criação de Conta de Usuário: Permite que os usuários criem uma nova conta, fornecendo informações básicas como nome, e-mail e senha.
+- Gerenciamento de Pratos 🍽️
+- Listagem de Pratos: Fornece uma lista de pratos disponíveis no cardápio.
+- Criação de Novos Pratos: Permite que os administradores do restaurante adicionem novos pratos ao cardápio, incluindo nome, descrição, categoria, imagem e preço.
+- Atualização de Pratos: Permite que os administradores atualizem as informações de pratos existentes.
+- Deleção de Pratos: Permite que os administradores removam pratos do cardápio.
 
-Currently, two official plugins are available:
+**- Gerenciamento de Favoritos** ❤️
+- Criação de Favoritos: Permite que os usuários marquem pratos como favoritos para acesso rápido.
+- Deleção de Favoritos: Permite que os usuários removam pratos da lista de favoritos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Mais Recursos
+
+- Cardápio Digital Personalizado: Oferece um cardápio digital com uma variedade de pratos, cada um com descrição, preço e imagem, permitindo aos usuários explorarem as opções de refeições de forma conveniente.
+- Autenticação Segura: Tokens JWT para garantir a autenticação segura entre o front-end e a API, protegendo os dados do usuário e a integridade da conta.
+- Experiência Intuitiva: O APP é projetada para ser fácil de usar e oferecer uma experiência de usuário fluida, tanto para os administradores de restaurantes quanto para os clientes.
+- Com recursos abrangentes de gerenciamento de pratos, autenticação segura e um cardápio digital personalizado, o APP oferece diversos recursos.
+
+## 🌐 Frontend
+- O projeto Food Explorer é um Web App que simula um menu interativo de um restaurante fictício. Ele oferece uma experiência envolvente aos usuários, permitindo que eles explorem os pratos, bebidas e opções do cardápio de forma interativa e visualmente atraente. Com o Food Explorer, os clientes podem navegar pelos pratos, ver imagens, descrições e informações detalhadas sobre cada item, criando uma experiência gastronômica virtual única.
+
+## ⚙️ Backend
+- A API Restful FoodExplorer foi projetado para ser uma ponte entre o Front-End e o Back-End do restaurante virtual fictício Food Explorer. Ao consumir essa API, o projeto será capaz de criar, listar, atualizar e deletar informações sobre usuários, pratos e favoritos, proporcionando aos usuários uma experiência completa e rica em recursos.
+
+**Como Configurar e Executar Localmente:**
+- Faça um pull do BackEnd: https://github.com/victorparanhosdev/api-foodexplorer
+- e do FrontEnd: https://github.com/victorparanhosdev/foodexplorer-react
+
+- Logo em seguida configure e instale as dependencias do projeto para que ele funcione corretamente.
+- no BackEnd: execute o "npm install", "npm run migrate" e "npm run dev"
+- no FrontEnd: você deve ir "./src/services/api.js" e configurar na baseURL para "http://localhost:3003/" e executar no terminal, os comandos "npm install" e "npm run dev"

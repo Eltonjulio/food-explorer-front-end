@@ -29,11 +29,3 @@ O App Food Explorer é um projeto CRUD de um menu interativo, projetado para o r
 
 ## ⚙️ Backend
 - A API Restful FoodExplorer foi projetado para ser uma ponte entre o Front-End e o Back-End do restaurante virtual fictício Food Explorer. Ao consumir essa API, o projeto será capaz de criar, listar, atualizar e deletar informações sobre usuários, pratos e favoritos, proporcionando aos usuários uma experiência completa e rica em recursos.
-
-**Como Configurar e Executar Localmente:**
-- Faça um pull do BackEnd: https://github.com/victorparanhosdev/api-foodexplorer
-- e do FrontEnd: https://github.com/victorparanhosdev/foodexplorer-react
-
-- Logo em seguida configure e instale as dependencias do projeto para que ele funcione corretamente.
-- no BackEnd: execute o "npm install", "npm run migrate" e "npm run dev"
-- no FrontEnd: você deve ir "./src/services/api.js" e configurar na baseURL para "http://localhost:3003/" e executar no terminal, os comandos "npm install" e "npm run dev"
